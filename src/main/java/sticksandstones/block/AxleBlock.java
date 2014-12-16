@@ -3,8 +3,10 @@ package sticksandstones.block;
 import net.minecraft.block.Block;
 import net.minecraft.block.ITileEntityProvider;
 import net.minecraft.block.material.Material;
+import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.world.World;
+import sticksandstones.reference.Textures;
 import sticksandstones.rotation.IAxle;
 import sticksandstones.tileentity.AxleTileEntity;
 
@@ -15,7 +17,14 @@ public class AxleBlock extends Block implements IAxle, ITileEntityProvider
     public AxleBlock()
     {
         super(Material.piston);
-        friction = 1F;
+        this.setBlockName("woodAxle");
+        this.friction = 1F;
+    }
+
+    @Override
+    public void registerBlockIcons(IIconRegister iconRegister)
+    {
+        this.blockIcon = iconRegister.registerIcon(Textures.IIcon.EMPTY);
     }
 
     public AxleBlock setFriction(float friction)

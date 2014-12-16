@@ -5,4 +5,9 @@ package sticksandstones.reference;
  */
 public final class Textures
 {
+    public static final class IIcon
+    {
+
+        public static final String EMPTY = "empty";
+    }
 }
