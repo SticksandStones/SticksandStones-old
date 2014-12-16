@@ -1,0 +1,2 @@
+sns.config.debug.title=Debug Mode
+sns.config.debug.description=Run the mod in debug mode
