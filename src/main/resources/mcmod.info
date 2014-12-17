@@ -1,0 +1,16 @@
+[
+{
+  "modid": "sticksandstones",
+  "name": "Sticks and Stones",
+  "description": "",
+  "version": "$version",
+  "mcversion": "$mc_version",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["blorph", "way2muchnoise", "jafner", "azhDev", "rushmead", "sireSegal", "crummy19", "modmuss501"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

@@ -40,9 +40,6 @@ MinecraftForge-License.txt
 /nbproject/private/
 /nbbuild/
 output/
-gradlew
-gradlew.bat
-gradle/
 install.bat
 .cache
 build.xml
@@ -56,3 +53,5 @@ nbproject/
 /logs/
 /crash-reports/
 /screenshots/
+
+curse.properties
