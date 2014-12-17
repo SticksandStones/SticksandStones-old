@@ -1,7 +1,6 @@
 package sticksandstones.registry;
 
-import cpw.mods.fml.common.registry.GameRegistry;
-import net.minecraft.item.ItemStack;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 import sticksandstones.block.AxleBlock;
 
 public class BlockRegistry

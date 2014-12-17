@@ -1,7 +1,7 @@
 package sticksandstones.gui;
 
-import cpw.mods.fml.client.config.GuiConfig;
 import net.minecraft.client.gui.GuiScreen;
+import net.minecraftforge.fml.client.config.GuiConfig;
 import sticksandstones.config.ConfigHandler;
 import sticksandstones.reference.Reference;
 

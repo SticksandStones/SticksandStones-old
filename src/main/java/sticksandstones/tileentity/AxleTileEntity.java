@@ -1,10 +1,11 @@
 package sticksandstones.tileentity;
 
 import net.minecraft.nbt.NBTTagCompound;
+import net.minecraft.server.gui.IUpdatePlayerListBox;
 import net.minecraft.tileentity.TileEntity;
 import sticksandstones.rotation.IAxle;
 
-public class AxleTileEntity extends TileEntity
+public class AxleTileEntity extends TileEntity implements IUpdatePlayerListBox
 {
     private IAxle axle;
     private float speed;
@@ -16,7 +17,7 @@ public class AxleTileEntity extends TileEntity
     }
 
     @Override
-    public void updateEntity()
+    public void update()
     {
         if (speed > 0)
         {
